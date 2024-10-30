@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar Navigation */
+.sidebar {
+    border: 1px solid;
+    width: 300px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.sidebar h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.sidebar a {
+    font-size: 30px;
+    margin-top: 25px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+.sidebar a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.main-content input{
+    margin-top: 10px;
+    margin-left: 30vw;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 40px;
+    width: 300px;
+    height: 30px;
+}
+
+.main-content .addcus{
+    border: 1px solid;
+    border-radius: 40px;
+    background-color: green;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.main-content .addcus:hover{
+    background-color: white;
+    color: green;
+}
+.main-content .images{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.main-content .images .image1 img{
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+.main-content table{
+    margin-left: 30px;
+    border: 1px solid black;
+    margin-top: 10px;
+    width: 1000px;
+    height: 330px;
+    border-collapse: collapse;
+}
+
+.main-content th{
+    background-color: lawngreen;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.main-content td{
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.main-content .view{
+    margin-top: 10px;
+    height: 30px;
+    width: 120px;
+    background-color: yellow;
+    color: white;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.main-content .view:hover{
+    background-color: white;
+    color: yellow;
+}
+.main-content .delete{
+    margin-top: 10px;
+    margin-left: 45vw;
+    height: 30px;
+    width: 120px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.main-content .delete:hover{
+    background-color: white;
+    color: red;
+}
+
+.main-content .update{
+    height: 30px;
+    width: 120px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.main-content .update:hover{
+    background-color: white;
+    color: blue;
+}
+

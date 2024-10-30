@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/css/DashBoard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+            <nav class="sidebar">
+                <h2>OS Technologies <i class=""></i></h2>
+                <a href="/pages/DashBoard.html">Home
+                    <i class="fas fa-home"></i>
+                </a>
+                <a href="/pages/customers.html">Customers
+                    <i class="fas fa-users"></i>
+                </a>
+                <a href="/pages/items.html">Items
+                    <i class="fas fa-boxes"></i>
+                </a>
+                <a href="/pages/orders.html">Orders
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+                <a href="/pages/login.html">Logout
+                    <i class="fas fa-sign-out-alt"></i>
+                </a>
+            </nav>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Top Navigation (if needed) -->
+            <div class="top-nav">
+                <h1>Dashboard</h1>
+            </div>
+            <div class="content-area">
+                <div class="card">
+                    <h3>Customers Count</h3>
+                    <i class="fas fa-users"></i>
+                    <p>26</p>
+                </div>
+                <div class="card">
+                    <h3>Items Count</h3>
+                    <i class="fas fa-boxes"></i>
+                    <p>15</p>
+                </div>
+                <div class="card">
+                    <h3>Orders Count</h3>
+                    <i class="fas fa-shopping-cart"></i>
+                    <p>31</p>
+                </div>
+                <div class="pie-chart">
+                    <h3>Order Status</h3>
+                    <div class="order-status">
+                        <div class="green"></div>
+                        <div class="orange"></div>
+                        <div class="red"></div>
+                    </div>
+                    <canvas id="pieChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

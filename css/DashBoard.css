@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar Navigation */
+.sidebar {
+    border: 1px solid;
+    width: 300px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.sidebar h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.sidebar a {
+    font-size: 30px;
+    margin-top: 25px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+.sidebar a:hover {
+    background-color: white;
+    color: black;
+}
+/* Main Content Area */
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff;
+}
+.main-content h1{
+    text-align: center;
+}
+
+.top-nav {
+    padding-bottom: 20px;
+}
+
+.content-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+}
+
+.card {
+    width: 250px;
+    height: 200px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+}
+.card p{
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.card:hover{
+    background-color: gray;
+    color: white;
+}
+
+.pie-chart {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    text-align: center;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+

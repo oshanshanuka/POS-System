@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders</title>
+    <link rel="stylesheet" href="/css/orders.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <h2>OS Technologies <i class=""></i></h2>
+            <a href="/pages/DashBoard.html">Home
+                <i class="fas fa-home"></i>
+            </a>
+            <a href="/pages/customers.html">Customers
+                <i class="fas fa-users"></i>
+            </a>
+            <a href="/pages/items.html">Items
+                <i class="fas fa-boxes"></i>
+            </a>
+            <a href="/pages/orders.html">Orders
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+            <a href="/pages/login.html">Logout
+                <i class="fas fa-sign-out-alt"></i>
+            </a>
+        </nav>
+        <div class="main-content">
+            <h1 style="margin-left: 10px;">Customers</h1>
+            <input type="text" placeholder="search">
+            <button class="addcus">Add Customer
+                <i class="fas fa-plus"></i>
+            </button>
+            <div class="date">
+                <input type="date" class="form-control" id="checkOut">
+            </div>
+        <table>
+                <thead>
+                    <tr>
+                        <th>First name</th>
+                        <th>Second name</th>
+                        <th>Age</th>
+                        <th>Address</th>
+                    </tr>
+                </thead>
+        
+                <tbody>
+                    <tr>
+                        <td>Oshan</td>
+                        <td>shanuka</td>
+                        <td>22</td>
+                        <td>Matara</td>
+                    </tr>
+                    <tr>
+                        <td>Vihana</td>
+                        <td>Pahum</td>
+                        <td>21</td>
+                        <td>Ahangama</td>
+                    </tr>
+                    <tr>
+                        <td>Shan</td>
+                        <td>jayawardane</td>
+                        <td>26</td>
+                        <td>Galle</td>
+                    </tr>
+                </tbody>
+        
+                <tfoot>
+                    <tr>
+                        <td>Summary 1</td>
+                        <td>Summary 2</td>
+                        <td>Summary 3</td>
+                        <td>Summary 4</td>
+                    </tr>
+                </tfoot>
+        </table>
+        <button class="delete">Delete
+            <i class="fas fa-trash"></i>
+        </button>
+        <button class="update">Update
+            <i class="fas fa-edit"></i>
+        </button>
+        <button class="view">View All
+            <i class="fas fa-eye"></i>
+        </button>
+    </div>
+</body>
+</html>
